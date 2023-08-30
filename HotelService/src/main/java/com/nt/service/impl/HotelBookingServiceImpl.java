@@ -45,4 +45,10 @@ public class HotelBookingServiceImpl implements IHotelService {
 		
 	}
 
+	@Override
+	public String findByName(String name) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }

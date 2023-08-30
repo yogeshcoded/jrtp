@@ -11,5 +11,6 @@ public interface IHotelService {
 	List<Hotel> fetchAllHotel();
 	Hotel fetchOneHotel(Long id);
 	void deleteHotelById(Long id);
+	String findByName(String name);
 
 }
